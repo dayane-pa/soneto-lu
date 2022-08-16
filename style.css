@@ -11,7 +11,6 @@
     --font1: 'Rubik Distressed', cursive;
     --font2: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
    
-
 }
 
 *{
@@ -21,81 +20,68 @@
 }
 body{
     background-color: #e6b5e55c;
+    min-height: 100vh;
 }
 
 header{
     background-color: var(--cor3);
     text-align: center;
     max-width: 100%;
-    height: 100px;
+    height: 35vh;
     
-}
 
-header h1{
-font-family: var(--font1);
-   font-weight: lighter;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   color: #5C445B;
-   text-transform: uppercase; 
 }
-header a{
+header h1{
+    font-family: var(--font1);
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #5C445B;
+    text-transform: uppercase; 
+    font-size: 8vw;
+}
+header p{
     font-family: var(--font2);
-    text-decoration:none;
-    color: black;
+   margin-top: 10px;
     font-weight: bold;
 }
-main>p {
+header a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    margin-top: 20px;
+}
+
+section >p {
     padding: 20px 10px 20px 10px;
-    line-height: 2em;
+    line-height: 2.5em;
+    font-size: 3vw;
     font-family: var(--font2);
     background-color: rgba(0, 0, 0, 0.095);
     display: inline-block;
-    border-radius: 0px 15px 15px 0px;
-    margin-top: 40px;
     margin-left: 20px;
-    margin-bottom: 40px;
     border-radius: 50px 0px 50px 0px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
 }
-article{
+
+section.imagem{
     color: white;
-    margin-left: 20px;
-    padding-right: 10px;
-    line-height: 2em;
-    font-family: var(--font2);
-    background-color: rgba(0, 0, 0, 0.314);
-    display: inline-block;
-    border-radius: 50px 0px 50px 0px;
-}
-article>p{
-    
-    margin-top: 32px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-}
-
-section{
-    height: 230px;
-    padding-top: 30px;
-}
-
-#primeiro{
-background-image: url(imagens/PIXNIO-2751942-1080x1350.jpeg);
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-background-attachment: fixed;
-
-
-}
-
-#segundo{
-    background-image: url(imagens/foto-cortada.jpg);
-    background-position:center center ;
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.447);
+}
+
+
+#imagem01{
+    background-image: url(imagens/PIXNIO-2751942-1080x1350.jpeg);
+    background-position: center center;
+}
+
+#imagem02{
+    background-image: url(imagens/foto-cortada.jpg);
+    background-position:center center ;
 }
 
 footer{
