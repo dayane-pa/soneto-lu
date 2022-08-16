@@ -37,16 +37,20 @@ header{
 header h1{
     font-family: var(--font1);
     font-weight: lighter;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: #5C445B;
     text-transform: uppercase; 
     font-size: 3em;
+    text-shadow: 1px 1px  rgb(233, 143, 227);
+    
 }
 header p{
     font-family: var(--font2);
-   margin-top: 10px;
+     margin-top: 0px;
     font-weight: bold;
+    text-shadow: 1px 1px  rgb(255, 255, 255);
+    
 }
 header a{
     text-decoration: none;
@@ -54,29 +58,33 @@ header a{
 }
 section{
     margin-top: 20px;
+    
 }
 
 section >p {
+    text-align:justify;
     padding: 20px 10px 20px 10px;
     line-height: 2em;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: var(--font3);
-    background-color: rgba(0, 0, 0, 0.077);
+    background-color: rgba(0, 0, 0, 0);
     display: inline-block;
     margin-left: 20px;
     border-radius: 50px 0px 50px 0px;
     margin-top: 20px ;
     margin-bottom: 20px;
+    box-shadow:  0px 1px 20px 0px rgba(0, 0, 0, 0.381);
 }
 section.imagem>p{
     background-color: rgba(0, 0, 0, 0.306);
 }
 
 section.imagem{
+    box-shadow: inset -4px 8px 20px 0px rgba(0, 0, 0, 0.618);
     color: white;
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.889);
+    
 }
 
 
